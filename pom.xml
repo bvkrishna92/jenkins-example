@@ -68,5 +68,17 @@
             <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
         </repository>
     </distributionManagement>
+         </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+            <id>mynexusRepo</id>
+            <url>https://http://localhost:8081/repository/sample-snapshots/</url>
+        </snapshotRepository>
+           
+     </repositories>
+         <id>mynexusRepo</id>
+         <url>https://http://localhost:8081/repository/sample-releases/</url>
+     </repositories>
+    
 </project>
